@@ -1,0 +1,650 @@
+{
+    "Amikacin": [
+        {
+            "CrCl": "51-90",
+            "Dose": "12 or 15 mg/kg/d"
+        },
+        {
+            "CrCl": "30-50",
+            "Dose": "7.5 mg/kg q24h or 15mg/kg q48h"
+        },
+        {
+            "CrCl": "10-30",
+            "Dose": "5 mg/kg q24h or 10mg/kg q48h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "7.5 mg q48h"
+        }
+    ],
+    "Amoxicillin": [
+        {
+            "CrCl": "10-30",
+            "Dose": "500 mg q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "500 mg q24h"
+        }
+    ],
+    "Amoxicillin/clavulanate": [
+        {
+            "CrCl": "10-30",
+            "Dose": "500/125 mg q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "500/125 mg q24h"
+        }
+    ],
+    "Ampicillin (Endocarditis, meningitis)": [
+        {
+            "CrCl": "30-49",
+            "Dose": "2 g q6h"
+        },
+        {
+            "CrCl": "15-29",
+            "Dose": "2 g q8h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "2 g q12h"
+        }
+    ],
+    "Ampicillin (Other infections)": [
+        {
+            "CrCl": "30-49",
+            "Dose": "2 g q8h"
+        },
+        {
+            "CrCl": "15-29",
+            "Dose": "2 g q12h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "2 g q24h"
+        }
+    ],
+    "Ampicillin/sulbactam": [
+        {
+            "CrCl": "15-29",
+            "Dose": "1.5-4.5 g q12h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "1.5-4.5 g q24h"
+        }
+    ],
+    "Atovaquone": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Azithromycin": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Aztreonam": [
+        {
+            "CrCl": "10-30",
+            "Dose": "2 g IV q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "2 g IV q24h"
+        }
+    ],
+    "Cefadroxil (complicated infections)": [
+        {
+            "CrCl": "20-40",
+            "Dose": "500 mg q12h"
+        },
+        {
+            "CrCl": "<20",
+            "Dose": "500 mg q24h"
+        }
+    ],
+    "Cefadroxil (uncomplicated infections or suppression)": [
+        {
+            "CrCl": "20-40",
+            "Dose": "500 mg q24h"
+        },
+        {
+            "CrCl": "<20",
+            "Dose": "500 mg every other day"
+        }
+    ],
+    "Cefazolin": [
+        {
+            "CrCl": "10-30",
+            "Dose": "2 g IV q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "1 g IV q24h"
+        }
+    ],
+    "Cefdinir": [
+        {
+            "CrCl": "<30",
+            "Dose": "300 mg q24h"
+        }
+    ],
+    "Cefepime (standard dose)": [
+        {
+            "CrCl": "30-50",
+            "Dose": "1 g IV q8h"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "1 g IV q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "1 g IV q24h"
+        }
+    ],
+    "Cefepime (febrile neutropenia/meningitis)": [
+        {
+            "CrCl": "30-60",
+            "Dose": "2 g IV q12h"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "1 g IV q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "1 g IV q24h"
+        }
+    ],
+    "Cefiderocol": [
+        {
+            "CrCl": ">119",
+            "Dose": "2 g q6h"
+        },
+        {
+            "CrCl": "30-59",
+            "Dose": "1.5 g q8h"
+        },
+        {
+            "CrCl": "15-29",
+            "Dose": "1 g q8h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "750 mg q12h"
+        }
+    ],
+    "Cefoxitin": [
+        {
+            "CrCl": "10-30",
+            "Dose": "2 g IV q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "2 g IV q24h"
+        }
+    ],
+    "Ceftaroline": [
+        {
+            "CrCl": "31-50",
+            "Dose": "400 mg q12h"
+        },
+        {
+            "CrCl": "15-30",
+            "Dose": "300 mg q12h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "200 mg q12h"
+        }
+    ],
+    "Ceftazidime": [
+        {
+            "CrCl": "31-50",
+            "Dose": "2 g q12h"
+        },
+        {
+            "CrCl": "16-30",
+            "Dose": "2 g q24h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "1 g q24h"
+        }
+    ],
+    "Ceftazidime/avibactam": [
+        {
+            "CrCl": "31-50",
+            "Dose": "1.25 g q8h"
+        },
+        {
+            "CrCl": "16-30",
+            "Dose": "0.94 g q12h"
+        },
+        {
+            "CrCl": "6-15",
+            "Dose": "0.94 g q24h"
+        },
+        {
+            "CrCl": "≤5",
+            "Dose": "0.94 g q48h"
+        }
+    ],
+    "Ceftolozane/tazobactam (complicated UTI/IAI)": [
+        {
+            "CrCl": "30-50",
+            "Dose": "750 mg q8h"
+        },
+        {
+            "CrCl": "15-29",
+            "Dose": "375 mg q8h"
+        }
+    ],
+    "Ceftolozane/tazobactam (HAP/VAP/Septic shock)": [
+        {
+            "CrCl": "30-50",
+            "Dose": "1500 mg q8h"
+        },
+        {
+            "CrCl": "15-29",
+            "Dose": "750 mg q8h"
+        }
+    ],
+    "Ceftriaxone": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Cefuroxime (PO)": [
+        {
+            "CrCl": "10-30",
+            "Dose": "250mg q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "250mg q24h"
+        }
+    ],
+    "Cefuroxime (IV)": [
+        {
+            "CrCl": "10-20",
+            "Dose": "1.5 g q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "1.5 g q24h"
+        }
+    ],
+    "Cephalexin": [
+        {
+            "CrCl": "15-30",
+            "Dose": "500 q8h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "500mg q12h"
+        }
+    ],
+    "Ciprofloxacin (PO)": [
+        {
+            "CrCl": "<30",
+            "Dose": "250-750 mg q24h"
+        }
+    ],
+    "Ciprofloxacin (IV)": [
+        {
+            "CrCl": "<30",
+            "Dose": "400 mg q12h for the q8h regimen or q24h (for q12h regimen)"
+        }
+    ],
+    "Clarithromycin": [
+        {
+            "CrCl": "<30",
+            "Dose": "250 mg PO q12h"
+        }
+    ],
+    "Clindamycin": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Colistimethate": [
+        {
+            "CrCl": ">90",
+            "Dose": "180mg q12h"
+        },
+        {
+            "CrCl": "80-90",
+            "Dose": "170mg q12h"
+        },
+        {
+            "CrCl": "70-80",
+            "Dose": "150mg q12h"
+        },
+        {
+            "CrCl": "60-70",
+            "Dose": "275 mg/d q24h or divided q12"
+        },
+        {
+            "CrCl": "50-60",
+            "Dose": "245 mg/d q24h or divided q12"
+        },
+        {
+            "CrCl": "40-50",
+            "Dose": "220 mg/d q24h or divided q12"
+        },
+        {
+            "CrCl": "30-40",
+            "Dose": "195 mg/d q24h or divided q12"
+        },
+        {
+            "CrCl": "20-30",
+            "Dose": "175 mg/d q24h or divided q12"
+        },
+        {
+            "CrCl": "10-20",
+            "Dose": "160 mg/d q24h or divided q12"
+        },
+        {
+            "CrCl": "5-10",
+            "Dose": "145 mg/d q24h or divided q12"
+        },
+        {
+            "CrCl": "0",
+            "Dose": "130 mg/d q24h or divided q12"
+        }
+    ],
+    "Colistin base, inhaled": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Dalbavancin": [
+        {
+            "CrCl": "<30",
+            "Dose": "1125 mg"
+        }
+    ],
+    "Daptomycin": [
+        {
+            "CrCl": "All",
+            "Dose": "4-12 mg/kg IV q48h"
+        }
+    ],
+    "Delafloxacin (PO)": [
+        {
+            "CrCl": "15-30",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "Use not recommended"
+        }
+    ],
+    "Delafloxacin (IV)": [
+        {
+            "CrCl": "15-30",
+            "Dose": "200 mg q12h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "Use not recommended"
+        }
+    ],
+    "Dicloxacillin": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Doxycycline": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Ertapenem": [
+        {
+            "CrCl": "<30",
+            "Dose": "500 mg IV q24h"
+        }
+    ],
+    "Ethambutol": [
+        {
+            "CrCl": "<30",
+            "Dose": "20-25 mg/kg three times weekly"
+        }
+    ],
+    "Fidaxomicin": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Fosfomycin (Complicated cystitis)": [
+        {
+            "CrCl": "<50",
+            "Dose": "3 g q72h"
+        }
+    ],
+    "Gentamicin": [
+        {
+            "CrCl": "51-90",
+            "Dose": "1mg/kg IV q12h"
+        },
+        {
+            "CrCl": "10-50",
+            "Dose": "1mg/kg IV q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "1mg/kg IV q48h"
+        }
+    ],
+    "Imipenem/cilastatin": [
+        {
+            "CrCl": "30-60",
+            "Dose": "250mg q6h or 500mg q8h"
+        },
+        {
+            "CrCl": "15-30",
+            "Dose": "250mg q8h or 500mg q12h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "not recommended"
+        }
+    ],
+    "Isoniazid": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Levofloxacin": [
+        {
+            "CrCl": "20-49",
+            "Dose": "750 mg q48h"
+        },
+        {
+            "CrCl": "<20",
+            "Dose": "750 mg x 1 dose, then 500 mg q48h"
+        }
+    ],
+    "Linezolid": [
+        {
+            "CrCl": "<30",
+            "Dose": "300mg q12h after 72 hours (treatment expected >10 days)"
+        }
+    ],
+    "Meropenem (standard dose)": [
+        {
+            "CrCl": "25-49",
+            "Dose": "500 mg q8h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "500 mg q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "500 mg q24h"
+        }
+    ],
+    "Meropenem (meningitis, cystic fibrosis, or MIC of 4 mcg/mL)": [
+        {
+            "CrCl": "25-49",
+            "Dose": "2 g q12h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "1 g q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "1 g q24h"
+        }
+    ],
+    "Metronidazole": [
+        {
+            "CrCl": "<10",
+            "Dose": "250 mg PO/IV q8h or 250-275 mg PO/IV q12h (if treatment >14 day)"
+        }
+    ],
+    "Minocycline": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Omadacycline": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Oxacillin": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Penicillin G": [
+        {
+            "CrCl": "10-50",
+            "Dose": "1.5-3 million units dose, q4h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "2-4 million units q8h"
+        }
+    ],
+    "Penicillin VK": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Piperacillin/tazobactam": [
+        {
+            "CrCl": "<20",
+            "Dose": "4.5 g IV q12h"
+        }
+    ],
+    "Polymyxin B": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Pyrazinamide": [
+        {
+            "CrCl": "<30",
+            "Dose": "25-35 mg/kg three times weekly"
+        }
+    ],
+    "Rifabutin": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Rifampin": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Tedizolid": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Telavancin": [
+        {
+            "CrCl": ">50",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "30-50",
+            "Dose": "7.5 mg/kg IV q24h"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "10 mg/kg IV q48h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "No data"
+        }
+    ],
+    "Tigecycline": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ],
+    "Vancomycin (IV) (Loading dose)": [
+        {
+            "CrCl": "91-129",
+            "Dose": "25 to 30 mg/kg"
+        },
+        {
+            "CrCl": "0-90",
+            "Dose": "20 to 25 mg/kg"
+        }
+    ],
+    "Vancomycin (IV) (maintenance dose)": [
+        {
+            "CrCl": "91-129",
+            "Dose": "15 to 20 mg/kg q8-12h"
+        },
+        {
+            "CrCl": "50-90",
+            "Dose": "15 to 20 mg/kg q12h"
+        },
+        {
+            "CrCl": "15-49",
+            "Dose": "10-15 mg/kg q24h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "10-15 mg/kg q48-72h"
+        }
+    ],
+    "Vancomycin (PO)": [
+        {
+            "CrCl": "No adjustment necessary",
+            "Dose": null
+        }
+    ]
+}
