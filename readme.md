@@ -12,7 +12,7 @@ A professional web application designed to help healthcare professionals calcula
 
 ## live demo
 
-[Live Demo](https://salma247.github.io/Antibiotic-Dose-Calculator/)
+[Live Demo](https://antibiotic-dose-calculator.vercel.app/)
 
 ## Getting Started
 

@@ -1,5 +1,4 @@
 {
-  "homepage": "https://salma247.github.io/Antibiotic-Dose-Calculator/",
   "name": "crcl-dose-calculator",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
@@ -26,7 +23,6 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "gh-pages": "^6.2.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
