@@ -41,7 +41,7 @@ export default function AdultDose() {
       return;
     }
 
-    let dose = "No dose adjustment required or data not available.";
+    let dose = "No dose adjustment required.";
     for (const adjustment of medicationData) {
       const range = adjustment.CrCl;
       if (range.includes(">")) {
@@ -140,7 +140,11 @@ export default function AdultDose() {
             Selected: {selectedMed}
           </div>
         )}
+      <p className="mt-2 text-sm text-primary font-semibold">
+        not to be used for patients undergoing hemodialysis.
+      </p>
       </div>
+
 
       <button
         onClick={calculateDose}
