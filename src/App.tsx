@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AdultDose from "./components/AdultDose";
 import Navbar from "./components/Navbar";
-import PediatricDose from "./components/PediatricDose";
+import PediatricDose from "./components/LiverDose";
 
 function App() {
   const [activeTab, setActiveTab] = useState("home");

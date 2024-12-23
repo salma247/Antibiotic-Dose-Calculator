@@ -1,0 +1,70 @@
+{
+    "Amphotericin B": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Fluconazole": [
+        {
+            "Type": "Invasive candidiasis (Loading dose)",
+            "CrCl": "<50",
+            "Dose": "800 mg (12 mg/kg)"
+        },
+        {
+            "Type": "Invasive candidiasis (Maintenance dose)",
+            "CrCl": "Any",
+            "Dose": "200 mg (3 mg/kg) q24h"
+        },
+        {
+            "Type": "Esophageal candidiasis",
+            "CrCl": "<50",
+            "Dose": "100 mg q24h"
+        },
+        {
+            "Type": "Oropharyngeal candidiasis",
+            "CrCl": "<50",
+            "Dose": "50 mg q24h"
+        }
+    ],
+    "Flucytosine": [
+        {
+            "CrCl": "10-20",
+            "Dose": "25 mg/kg q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "25 mg/kg q48h"
+        }
+    ],
+    "Isavuconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Itraconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Micafungin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Posaconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Voriconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "Abacavir": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Acyclovir": [
+        {
+            "Type": "PO 200 mg 5x/day",
+            "CrCl": "0-10",
+            "Dose": "200 mg q12h"
+        },
+        {
+            "Type": "PO 400 mg 5x/day",
+            "CrCl": "11-25",
+            "Dose": "400 mg q8h"
+        },
+        {
+            "Type": "PO 400 mg 5x/day",
+            "CrCl": "0-10",
+            "Dose": "400 mg q12h"
+        },
+        {
+            "Type": "PO 800 mg 5x/day",
+            "CrCl": "11-25",
+            "Dose": "800 mg q8h"
+        },
+        {
+            "Type": "PO 800 mg 5x/day",
+            "CrCl": "0-10",
+            "Dose": "800 mg q12h"
+        },
+        {
+            "Type": "IV Mucocutaneous",
+            "CrCl": "25-50",
+            "Dose": "5 mg/kg q12h"
+        },
+        {
+            "Type": "IV Mucocutaneous",
+            "CrCl": "10-24",
+            "Dose": "5 mg/kg q24h"
+        },
+        {
+            "Type": "IV Mucocutaneous",
+            "CrCl": "<10",
+            "Dose": "2.5-3.1 mg/kg q24h"
+        },
+        {
+            "Type": "IV HSV Encephalitis or Varicella Zoster Virus",
+            "CrCl": "25-50",
+            "Dose": "10 mg/kg q12h"
+        },
+        {
+            "Type": "IV HSV Encephalitis or Varicella Zoster Virus",
+            "CrCl": "10-24",
+            "Dose": "10 mg/kg q24h"
+        },
+        {
+            "Type": "IV HSV Encephalitis or Varicella Zoster Virus",
+            "CrCl": "<10",
+            "Dose": "5-6.2 mg/kg q24h"
+        }
+    ],
+    "Atazanavir": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Darunavir": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Dolutegravir": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Doravirine": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Emtricitabine": [
+        {
+            "Form": "Capsule",
+            "CrCl": ">50",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "Form": "Capsule",
+            "CrCl": "30-49",
+            "Dose": "200 mg q48h"
+        },
+        {
+            "Form": "Capsule",
+            "CrCl": "15-20",
+            "Dose": "200 mg q72h"
+        },
+        {
+            "Form": "Capsule",
+            "CrCl": "<15",
+            "Dose": "200 mg q96h"
+        },
+        {
+            "Form": "Solution",
+            "CrCl": ">50",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "Form": "Solution",
+            "CrCl": "30-49",
+            "Dose": "120 mg q24h"
+        },
+        {
+            "Form": "Solution",
+            "CrCl": "15-20",
+            "Dose": "80 mg q24h"
+        },
+        {
+            "Form": "Solution",
+            "CrCl": "<15",
+            "Dose": "60 mg q24h"
+        }
+    ],
+    "Famciclovir": [
+        {
+            "CrCl": "40-59",
+            "Dose": "500 mg q12h"
+        },
+        {
+            "CrCl": "20-39",
+            "Dose": "500 mg q24h"
+        },
+        {
+            "CrCl": "<20",
+            "Dose": "250 mg q24h"
+        }
+    ],
+    "Ganciclovir": [
+        {
+            "Type": "IV Induction",
+            "CrCl": "50-69",
+            "Dose": "2.5 mg/kg q12h"
+        },
+        {
+            "Type": "IV Induction",
+            "CrCl": "25-49",
+            "Dose": "2.5 mg/kg q24h"
+        },
+        {
+            "Type": "IV Induction",
+            "CrCl": "10-24",
+            "Dose": "1.25 mg/kg q24h"
+        },
+        {
+            "Type": "IV Induction",
+            "CrCl": "<10",
+            "Dose": "1.25 mg/kg 3x/week"
+        },
+        {
+            "Type": "IV Maintenance",
+            "CrCl": "50-69",
+            "Dose": "2.5 mg/kg q24h"
+        },
+        {
+            "Type": "IV Maintenance",
+            "CrCl": "25-49",
+            "Dose": "1.25 mg/kg q24h"
+        },
+        {
+            "Type": "IV Maintenance",
+            "CrCl": "10-24",
+            "Dose": "0.625 mg/kg q24h"
+        },
+        {
+            "Type": "IV Maintenance",
+            "CrCl": "<10",
+            "Dose": "0.625 mg/kg 3x/week"
+        }
+    ]
+}
