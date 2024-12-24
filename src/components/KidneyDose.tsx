@@ -50,22 +50,25 @@ export default function KidneyDose() {
     }
 
     let dose = "No dose adjustment required.";
-    for (const adjustment of medicationData) {
+    for (const adjustment of medicationData as any) {
       const range = adjustment.CrCl;
-      if (range.includes(">")) {
-        const [lower] = range?.match(/\d+/g).map(Number);
+      if (range?.includes(">")) {
+        const matches = range.match(/\d+/g);
+        const [lower] = matches ? matches.map(Number) : [0];
         if (crclNum > lower) {
           dose = adjustment.Dose || "";
           break;
         }
       } else if (range?.includes("-")) {
-        const [lower, upper] = range?.match(/\d+/g).map(Number);
+        const matches = range.match(/\d+/g);
+        const [lower, upper] = matches ? matches.map(Number) : [0, 0];
         if (crclNum >= lower && crclNum <= upper) {
           dose = adjustment.Dose || "";
           break;
         }
       } else if (range?.includes("<")) {
-        const [upper] = range?.match(/\d+/g).map(Number);
+        const matches = range.match(/\d+/g);
+        const [upper] = matches ? matches.map(Number) : [0];
         if (crclNum < upper) {
           dose = adjustment.Dose || "";
           break;
