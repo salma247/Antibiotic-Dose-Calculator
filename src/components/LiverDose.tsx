@@ -1,21 +1,25 @@
 import { X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import antiFungalData from "../data/anti-fungal.json";
-import antiViralData from "../data/anti-viral.json";
+import antiFungalData from "../data/liver/anti-fungal.json";
+import antiViralData from "../data/liver/anti-viral.json";
+import antibioticData from "../data/liver/antibiotic.json";
 
 export default function LiverDose() {
-  const [selectedType, setSelectedType] = useState<"antifungal" | "antiviral">(
-    "antifungal"
-  );
+  const [selectedType, setSelectedType] = useState<
+    "antifungal" | "antiviral" | "antibiotic"
+  >("antibiotic");
   const [selectedMed, setSelectedMed] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [result, setResult] = useState("");
   const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    function handleClickOutside(event) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
       }
     }
@@ -32,34 +36,54 @@ export default function LiverDose() {
       return;
     }
 
-    const data = selectedType === "antifungal" ? antiFungalData : antiViralData;
-    const medicationData = data[selectedMed];
+    const getDataForType = {
+      antifungal: antiFungalData,
+      antiviral: antiViralData,
+      antibiotic: antibioticData,
+    };
+
+    const data = getDataForType[selectedType] || {};
+    const medicationData = data[selectedMed as keyof typeof data];
 
     if (!medicationData) {
       setResult("No data available for the selected medication.");
       return;
     }
 
-    // For now, just show all available dosing information
     const doseInfo = medicationData
-      .map((info) => {
-        let result = "";
+      .map((info: any) => {
+        const parts = [];
+
+        if (info.Condition) {
+          parts.push(`Condition: ${info.Condition}`);
+        }
         if (info.Type) {
-          result += `${info.Type}: `;
+          parts.push(`Type: ${info.Type}`);
         }
         if (info.Form) {
-          result += `${info.Form}: `;
+          parts.push(`Form: ${info.Form}`);
         }
-        result += `${info.Dose} (CrCl ${info.CrCl})`;
-        return result;
+
+        parts.push(`Dose: ${info.Dose}`);
+
+        if (info.CrCl) {
+          parts.push(`CrCl: ${info.CrCl}`);
+        }
+
+        return parts.join("\n");
       })
-      .join("\n");
+      .join("\n\n");
 
     setResult(doseInfo);
   };
 
-  const currentData =
-    selectedType === "antifungal" ? antiFungalData : antiViralData;
+  const getDataForType = {
+    antifungal: antiFungalData,
+    antiviral: antiViralData,
+    antibiotic: antibioticData,
+  };
+
+  const currentData = getDataForType[selectedType] || {};
   const filteredMedications = Object.keys(currentData).filter((med) =>
     med.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -67,11 +91,23 @@ export default function LiverDose() {
   return (
     <div className="max-w-xl mx-auto bg-white rounded-lg shadow-lg p-6">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">
-        Liver Dose Calculator
+        Liver Dose Adjustment
       </h2>
 
       <div className="mb-6">
         <div className="flex gap-4 mb-4">
+          <button
+            onClick={() => {
+              setSelectedType("antibiotic");
+            }}
+            className={`flex-1 py-2 px-4 rounded-md ${
+              selectedType === "antibiotic"
+                ? "bg-primary text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+          >
+            Antibiotic
+          </button>
           <button
             onClick={() => {
               setSelectedType("antifungal");
@@ -106,11 +142,15 @@ export default function LiverDose() {
       </div>
 
       <div className="mb-6 relative">
-        <label className="block text-sm font-medium text-gray-700 mb-2">
+        <label
+          htmlFor="medication"
+          className="block text-sm font-medium text-gray-700 mb-2"
+        >
           Select Medication
         </label>
         <div ref={dropdownRef} className="relative">
           <input
+            id="medication"
             type="text"
             value={searchTerm}
             onChange={(e) => {

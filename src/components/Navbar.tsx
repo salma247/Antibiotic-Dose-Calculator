@@ -1,5 +1,6 @@
-import { Home, Pill, PersonStanding, Baby, Menu, X } from "lucide-react";
+import { Home, Pill, Menu, X } from "lucide-react";
 import { useState } from "react";
+import { GiKidneys, GiLiver } from "react-icons/gi";
 
 export default function Navbar({ activeTab, setActiveTab }: any) {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,8 +52,8 @@ export default function Navbar({ activeTab, setActiveTab }: any) {
           {/* Desktop menu */}
           <div className="hidden sm:flex sm:items-center sm:space-x-8">
             <NavItem icon={Home} text="Home" value="home" />
-            <NavItem icon={PersonStanding} text="Adult Dosing" value="adult" />
-            <NavItem icon={Baby} text="Pediatric Dosing" value="pediatric" />
+            <NavItem icon={GiKidneys} text="Kidney Dosing" value="kidney" />
+            <NavItem icon={GiLiver} text="Liver Dosing" value="liver" />
           </div>
         </div>
       </div>
@@ -61,8 +62,8 @@ export default function Navbar({ activeTab, setActiveTab }: any) {
       <div className={`${isOpen ? "block" : "hidden"} sm:hidden`}>
         <div className="pt-2 pb-3 space-y-1 border-t border-gray-200">
           <NavItem icon={Home} text="Home" value="home" />
-          <NavItem icon={PersonStanding} text="Adult Dosing" value="adult" />
-          <NavItem icon={Baby} text="Pediatric Dosing" value="pediatric" />
+          <NavItem icon={GiKidneys} text="Adult Dosing" value="kidney" />
+          <NavItem icon={GiLiver} text="Liver Dosing" value="liver" />
         </div>
       </div>
     </nav>

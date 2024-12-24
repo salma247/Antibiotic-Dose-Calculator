@@ -1,17 +1,22 @@
-import { useState, useEffect, useRef } from "react";
-import doseData from "../data/adult_dose.json";
 import { X } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import antifungal from "../data/kidney/anti-fungal.json";
+import antiviral from "../data/kidney/anti-viral.json";
+import antiboitic from "../data/kidney/antiboitic.json";
 
-export default function AdultDose() {
+export default function KidneyDose() {
   const [crcl, setCrcl] = useState("");
   const [selectedMed, setSelectedMed] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [result, setResult] = useState("");
   const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef(null);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
+  const [selectedType, setSelectedType] = useState<
+    "antibiotic" | "antifungal" | "antiviral"
+  >("antibiotic");
 
   useEffect(() => {
-    function handleClickOutside(event) {
+    function handleClickOutside(event: any) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsOpen(false);
       }
@@ -35,7 +40,10 @@ export default function AdultDose() {
       return;
     }
 
-    const medicationData = doseData[selectedMed];
+    const medicationData =
+      getDataForType[selectedType][
+        selectedMed as keyof (typeof getDataForType)[typeof selectedType]
+      ];
     if (!medicationData) {
       setResult("No data available for the selected medication.");
       return;
@@ -45,25 +53,25 @@ export default function AdultDose() {
     for (const adjustment of medicationData) {
       const range = adjustment.CrCl;
       if (range.includes(">")) {
-        const [lower] = range.match(/\d+/g).map(Number);
+        const [lower] = range?.match(/\d+/g).map(Number);
         if (crclNum > lower) {
-          dose = adjustment.Dose;
+          dose = adjustment.Dose || "";
           break;
         }
-      } else if (range.includes("-")) {
-        const [lower, upper] = range.match(/\d+/g).map(Number);
+      } else if (range?.includes("-")) {
+        const [lower, upper] = range?.match(/\d+/g).map(Number);
         if (crclNum >= lower && crclNum <= upper) {
-          dose = adjustment.Dose;
+          dose = adjustment.Dose || "";
           break;
         }
-      } else if (range.includes("<")) {
-        const [upper] = range.match(/\d+/g).map(Number);
+      } else if (range?.includes("<")) {
+        const [upper] = range?.match(/\d+/g).map(Number);
         if (crclNum < upper) {
-          dose = adjustment.Dose;
+          dose = adjustment.Dose || "";
           break;
         }
       } else if (!isNaN(parseFloat(range)) && crclNum === parseFloat(range)) {
-        dose = adjustment.Dose;
+        dose = adjustment.Dose || "";
         break;
       }
     }
@@ -71,15 +79,75 @@ export default function AdultDose() {
     setResult(dose);
   };
 
-  const filteredMedications = Object.keys(doseData).filter(med =>
+  const getDataForType = {
+    antibiotic: antiboitic,
+    antifungal: antifungal,
+    antiviral: antiviral,
+  };
+
+  const currentData = getDataForType[selectedType] || {};
+  const filteredMedications = Object.keys(currentData).filter((med) =>
     med.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
     <div className="max-w-xl mx-auto bg-white rounded-lg shadow-lg p-6">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">
-        Adult Dose Calculator
+        Kidney Dose Calculator
       </h2>
+
+      <div className="mb-6">
+        <div className="flex gap-4 mb-4">
+          <button
+            onClick={() => {
+              setSelectedType("antibiotic");
+              setSelectedMed("");
+              setCrcl("");
+              setSearchTerm("");
+              setResult("");
+            }}
+            className={`flex-1 py-2 px-4 rounded-md ${
+              selectedType === "antibiotic"
+                ? "bg-primary text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+          >
+            Antibiotic
+          </button>
+          <button
+            onClick={() => {
+              setSelectedType("antifungal");
+              setSelectedMed("");
+              setCrcl("");
+              setSearchTerm("");
+              setResult("");
+            }}
+            className={`flex-1 py-2 px-4 rounded-md ${
+              selectedType === "antifungal"
+                ? "bg-primary text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+          >
+            Anti-Fungal
+          </button>
+          <button
+            onClick={() => {
+              setSelectedType("antiviral");
+              setSelectedMed("");
+              setCrcl("");
+              setSearchTerm("");
+              setResult("");
+            }}
+            className={`flex-1 py-2 px-4 rounded-md ${
+              selectedType === "antiviral"
+                ? "bg-primary text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+          >
+            Anti-Viral
+          </button>
+        </div>
+      </div>
 
       <div className="mb-6">
         <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -110,13 +178,15 @@ export default function AdultDose() {
             placeholder="Search medication..."
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary relative"
           />
-          {searchTerm && <button
-            type="button"
-            onClick={() => setSearchTerm("")}
-            className="absolute top-0 right-0 mt-3 mr-3"
-          >
-            <X className="h-4 w-4 text-gray-500" />
-          </button> }
+          {searchTerm && (
+            <button
+              type="button"
+              onClick={() => setSearchTerm("")}
+              className="absolute top-0 right-0 mt-3 mr-3"
+            >
+              <X className="h-4 w-4 text-gray-500" />
+            </button>
+          )}
           {isOpen && filteredMedications.length > 0 && (
             <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-md shadow-lg max-h-60 overflow-auto">
               {filteredMedications.map((med) => (
@@ -140,11 +210,10 @@ export default function AdultDose() {
             Selected: {selectedMed}
           </div>
         )}
-      <p className="mt-2 text-sm text-primary font-semibold">
-        not to be used for patients undergoing hemodialysis.
-      </p>
+        <p className="mt-2 text-sm text-primary font-semibold">
+          not to be used for patients undergoing hemodialysis.
+        </p>
       </div>
-
 
       <button
         onClick={calculateDose}

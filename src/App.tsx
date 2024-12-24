@@ -1,8 +1,7 @@
 import { useState } from "react";
-import AdultDose from "./components/AdultDose";
+import KidneyDose from "./components/KidneyDose";
+import LiverDose from "./components/LiverDose";
 import Navbar from "./components/Navbar";
-import PediatricDose from "./components/LiverDose";
-
 function App() {
   const [activeTab, setActiveTab] = useState("home");
 
@@ -14,11 +13,10 @@ function App() {
         {activeTab === "home" && (
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-8">
-              Welcome to CrCl Dose Calculator
+              Welcome to Antiboitic Dose Calculator
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              A tool for healthcare professionals to calculate medication doses
-              based on Creatinine Clearance.
+              A tool for healthcare professionals to calculate medication doses.
             </p>
             <button
               onClick={() => setActiveTab("adult")}
@@ -29,8 +27,8 @@ function App() {
           </div>
         )}
 
-        {activeTab === "adult" && <AdultDose />}
-        {activeTab === "pediatric" && <PediatricDose />}
+        {activeTab === "kidney" && <KidneyDose />}
+        {activeTab === "liver" && <LiverDose />}
       </main>
     </div>
   );

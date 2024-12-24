@@ -1,0 +1,498 @@
+{
+    "Abacavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Acyclovir PO 200mg": [
+        {
+            "CrCl": "0-10",
+            "Dose": "200 mg q12h"
+        }
+    ],
+    "Acyclovir 400mg PO 5x/day": [
+        {
+            "CrCl": "11-25",
+            "Dose": "400 mg q8h"
+        },
+        {
+            "CrCl": "0-10",
+            "Dose": "400 mg q12h"
+        }
+    ],
+    "Acyclovir 800mg PO 5x/day": [
+        {
+            "CrCl": "11-25",
+            "Dose": "800 mg q8h"
+        },
+        {
+            "CrCl": "0-10",
+            "Dose": "800 mg q12h"
+        }
+    ],
+    "Acyclovir 400mg PO q12h": [
+        {
+            "CrCl": "0-10",
+            "Dose": "200 mg q12h"
+        }
+    ],
+    "Acyclovir IV Mucocutaneous": [
+        {
+            "CrCl": "25-50",
+            "Dose": "5 mg/kg q12h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "5 mg/kg q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "2.5-3.1 mg/kg IV q24h"
+        }
+    ],
+    "Acyclovir IV HSV encephalitis or varicella zoster virus": [
+        {
+            "CrCl": "25-50",
+            "Dose": "10 mg/kg q12h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "10 mg/kg q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "5-6.2 mg/kg IV q24h"
+        }
+    ],
+    "Atazanavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Darunavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Dolutegravir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Doravirine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Efavirenz": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Elvitegravir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Emtricitabine Capsule": [
+        {
+            "CrCl": ">50",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "30-49",
+            "Dose": "200 mg q48h"
+        },
+        {
+            "CrCl": "15-20",
+            "Dose": "200 mg q72h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "200 mg q96h"
+        }
+    ],
+    "Emtricitabine Solution": [
+        {
+            "CrCl": ">50",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "30-49",
+            "Dose": "120 mg q24h"
+        },
+        {
+            "CrCl": "15-20",
+            "Dose": "80 mg q24h"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "60 mg q24h"
+        }
+    ],
+    "Enfuvirtide": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Etravirine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Famciclovir": [
+        {
+            "CrCl": "40-59",
+            "Dose": "500 mg q12h"
+        },
+        {
+            "CrCl": "20-39",
+            "Dose": "500 mg q24h"
+        },
+        {
+            "CrCl": "<20",
+            "Dose": "250 mg q24h"
+        }
+    ],
+    "Fosamprenavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Ganciclovir IV Induction": [
+        {
+            "CrCl": "50-69",
+            "Dose": "2.5 mg/kg q12h"
+        },
+        {
+            "CrCl": "25-49",
+            "Dose": "2.5 mg/kg q24h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "1.25 mg/kg q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "1.25 mg/kg 3x/week"
+        }
+    ],
+    "Ganciclovir IV Maintenance": [
+        {
+            "CrCl": "50-69",
+            "Dose": "2.5 mg/kg q24h"
+        },
+        {
+            "CrCl": "25-49",
+            "Dose": "1.25 mg/kg q24h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "0.625 mg/kg q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "0.625 mg/kg 3x/week"
+        }
+    ],
+    "Lamivudine": [
+        {
+            "CrCl": "<35",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "<5",
+            "Dose": "150 mg q24h"
+        }
+    ],
+    "Lopinavir/ritonavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Maraviroc": [
+        {
+            "CrCl": ">30",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "<30",
+            "Dose": "Use not recommended"
+        }
+    ],
+    "Nelfinavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Nevirapine": [
+        {
+            "CrCl": ">20",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "<20",
+            "Dose": "No recommendation"
+        }
+    ],
+    "Nirmatrelvir/ritonavir": [
+        {
+            "CrCl": "30-59",
+            "Dose": "Nirmatrelvir 150 mg with ritonavir 100 mg, administered together, q12h"
+        },
+        {
+            "CrCl": "<30",
+            "Dose": "use is not recommended; however risk of toxicity is likely minimal with a 5-day course. Nirmatrelvir 150 mg with ritonavir 100 mg, administered together, q12h"
+        }
+    ],
+    "Oseltamivir Treatment": [
+        {
+            "CrCl": "31-59",
+            "Dose": "75mg x1, then 30 mg q12h"
+        },
+        {
+            "CrCl": "11-30",
+            "Dose": "30 mg q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "30mg q48h"
+        }
+    ],
+    "Oseltamivir Prophylaxis": [
+        {
+            "CrCl": "31-59",
+            "Dose": "30 mg q24h"
+        },
+        {
+            "CrCl": "11-30",
+            "Dose": "30 mg every other day"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "30 mg once weekly"
+        }
+    ],
+    "Peramivir": [
+        {
+            "CrCl": "30-49",
+            "Dose": "200 mg x 1 dose"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "100 mg x 1 dose"
+        }
+    ],
+    "Peramivir Hospitalized patients with severe influenza": [
+        {
+            "CrCl": "30-49",
+            "Dose": "200 mg q24h"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "100 mg q24h"
+        }
+    ],
+    "Raltegravir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Remdesivir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Ribavirin": [
+        {
+            "CrCl": "30-50",
+            "Dose": "200 mg q8h"
+        },
+        {
+            "CrCl": "10-30",
+            "Dose": "200 mg q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "Contraindicated"
+        }
+    ],
+    "Rilpivirine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Ritonavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Saquinavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Stavudine <60 kg": [
+        {
+            "CrCl": "26-50",
+            "Dose": "15 mg q12h"
+        },
+        {
+            "CrCl": "10-25",
+            "Dose": "15 mg q24h"
+        }
+    ],
+    "Stavudine ≥60 kg": [
+        {
+            "CrCl": "26-50",
+            "Dose": "20 mg q12h"
+        },
+        {
+            "CrCl": "10-25",
+            "Dose": "20 mg q24h"
+        }
+    ],
+    "Tenofovir alafenamide": [
+        {
+            "CrCl": ">15",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "CrCl": "<15",
+            "Dose": "Not recommended"
+        }
+    ],
+    "Tenofovir disoproxil fumarate": [
+        {
+            "CrCl": "30-49",
+            "Dose": "300 mg q48h"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "300 mg twice weekly"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "No data"
+        }
+    ],
+    "Tipranavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Valacyclovir Herpes Simplex single-day treatment": [
+        {
+            "CrCl": "30-49",
+            "Dose": "1 g PO q12h"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "500 mg PO q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "500 mg PO q24h"
+        }
+    ],
+    "Valacyclovir Herpes Zoster or Varicella infection, Bell's palsy, Herpes Simplex Meningitis or step-down from IV treatment for encephalitis": [
+        {
+            "CrCl": "30-49",
+            "Dose": "1 g PO q12h"
+        },
+        {
+            "CrCl": "10-29",
+            "Dose": "1 g PO q24h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "500 mg PO q24h"
+        }
+    ],
+    "Valganciclovir induction": [
+        {
+            "CrCl": "40-59",
+            "Dose": "450 mg PO q12h"
+        },
+        {
+            "CrCl": "25-39",
+            "Dose": "450 mg PO q24h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "450 mg PO q48h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "200 mg PO three times a week"
+        }
+    ],
+    "Valganciclovir maintenance": [
+        {
+            "CrCl": "40-59",
+            "Dose": "450 mg PO q24h"
+        },
+        {
+            "CrCl": "25-39",
+            "Dose": "450 mg PO q48h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "450 mg PO twice weekly"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "100 mg PO three times a week"
+        }
+    ],
+    "Valganciclovir Prophylaxis": [
+        {
+            "CrCl": "25-39",
+            "Dose": "450 mg PO q48h"
+        },
+        {
+            "CrCl": "10-24",
+            "Dose": "450 mg PO twice weekly"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "50-100 mg PO three times a week"
+        }
+    ],
+    "Zanamivir": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary"
+        }
+    ],
+    "Zidovudine (oral)": [
+        {
+            "CrCl": "<15",
+            "Dose": "300 mg PO q24h or 100 mg PO q8h"
+        }
+    ],
+    "Zidovudine": [
+        {
+            "CrCl": "<15",
+            "Dose": "1 mg/kg IV q6-8h"
+        }
+    ]
+}

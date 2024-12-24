@@ -1,0 +1,365 @@
+{
+    "Amikacin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Amoxicillin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Amoxicillin/clavulanate": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ampicillin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ampicillin/sulbactam": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Atovaquone": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Azithromycin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Aztreonam": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cefadroxil": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cefazolin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cefdinir": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cefepime (standard dose)": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cefiderocol": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cefoxitin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ceftaroline": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ceftazidime": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ceftazidime/avibactam": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ceftolozane/tazobactam": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ceftriaxone": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cefuroxime": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Cephalexin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ciprofloxacin (PO)": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ciprofloxacin (IV)": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Clarithromycin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Clindamycin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Colistimethate (IV) (maintenance dose)": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Colistin base, inhaled": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Dalbavancin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Daptomycin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Delafloxacin (PO)": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Dicloxacillin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Doxycycline": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ertapenem": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Ethambutol": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Fidaxomicin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Fosfomycin (Complicated cystitis)": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Gentamicin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Imipenem/cilastatin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Isoniazid": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Levofloxacin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Linezolid": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Meropenem": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Metronidazole (capsules)": [
+        {
+            "Condition": "Child-Turcotte-Pugh class C (Amebiasis)",
+            "Dose": "375 mg q8h"
+        },
+        {
+            "Condition": "Child-Turcotte-Pugh class C (Trichomoniasis)",
+            "Dose": "375 mg q24h"
+        }
+    ],
+    "Metronidazole (IV & tablets)": [
+        {
+            "Condition": "Child-Turcotte-Pugh class C (q12h frequency)",
+            "Dose": "No adjustment necessary"
+        },
+        {
+            "Condition": "Child-Turcotte-Pugh class C (q6-8h frequency)",
+            "Dose": "Maintain dose but reduce frequency to q12h"
+        }
+    ],
+    "Metronidazole (Oral suspension)": [
+        {
+            "Condition": "Child-Turcotte-Pugh class C",
+            "Dose": "Reduce dose by 50%"
+        }
+    ],
+    "Minocycline": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Omadacycline": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Oxacillin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Penicillin G": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Penicillin VK": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Piperacillin/tazobactam": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Polymyxin B": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Pyrazinamide": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Rifabutin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Rifampin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Tedizolid": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Telavancin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ],
+    "Tigecycline": [
+        {
+            "Condition": "Severe hepatic impairment (Child-Pugh class C)",
+            "Initial": "100 mg single dose",
+            "Maintenance": "25 mg q12h"
+        }
+    ],
+    "Vancomycin (PO)": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary or not enough data"
+        }
+    ]
+}

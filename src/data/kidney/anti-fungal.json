@@ -5,24 +5,26 @@
             "Dose": "No adjustment necessary"
         }
     ],
-    "Fluconazole": [
+    "Fluconazole Invasive candidiasis (Loading dose)": [
         {
-            "Type": "Invasive candidiasis (Loading dose)",
             "CrCl": "<50",
             "Dose": "800 mg (12 mg/kg)"
-        },
+        }
+    ],
+    "Fluconazole Invasive candidiasis (Maintenance dose)": [
         {
-            "Type": "Invasive candidiasis (Maintenance dose)",
-            "CrCl": "Any",
+            "CrCl": "<50",
             "Dose": "200 mg (3 mg/kg) q24h"
-        },
+        }
+    ],
+    "Fluconazole Esophageal candidiasis": [
         {
-            "Type": "Esophageal candidiasis",
             "CrCl": "<50",
             "Dose": "100 mg q24h"
-        },
+        }
+    ],
+    "Fluconazole Oropharyngeal candidiasis": [
         {
-            "Type": "Oropharyngeal candidiasis",
             "CrCl": "<50",
             "Dose": "50 mg q24h"
         }

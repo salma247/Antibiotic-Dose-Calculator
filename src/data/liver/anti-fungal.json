@@ -1,0 +1,54 @@
+{
+    "Amphotericin B": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Fluconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Flucytosine": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Isavuconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Itraconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Micafungin": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Posaconazole": [
+        {
+            "CrCl": "Any",
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Voriconazole": [
+        {
+            "Condition": "Hepatic dysfunction (Child Pugh A-B)",
+            "Dose": "6 mg/kg q12h x 2 doses then 50% of normal daily dose"
+        },
+        {
+            "Condition": "Hepatic dysfunction (Child Pugh C)",
+            "Dose": "No data provided"
+        }
+    ]
+}

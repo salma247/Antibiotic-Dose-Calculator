@@ -27,6 +27,16 @@
             "Dose": "500 mg q24h"
         }
     ],
+    "Amoxicillin - High dose 1000mg q8h (Pneumonia uncomplicated bacteremia)": [
+        {
+            "CrCl": "10-30",
+            "Dose": "1000 mg q12h"
+        },
+        {
+            "CrCl": "<10",
+            "Dose": "500 mg q12h"
+        }
+    ],
     "Amoxicillin/clavulanate": [
         {
             "CrCl": "10-30",
@@ -231,7 +241,7 @@
             "Dose": "0.94 g q24h"
         },
         {
-            "CrCl": "≤5",
+            "CrCl": "<6",
             "Dose": "0.94 g q48h"
         }
     ],

@@ -1,0 +1,237 @@
+{
+    "Abacavir": [
+        {
+            "Condition": "Mild impairment (Child-Pugh class A)",
+            "Dose": "200 mg twice daily (oral solution is recommended)"
+        },
+        {
+            "Condition": "Moderate to severe impairment (Child-Pugh class B or C)",
+            "Dose": "Use is contraindicated"
+        }
+    ],
+    "Acyclovir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Atazanavir": [
+        {
+            "Condition": "Mild impairment (Child-Pugh class A)",
+            "Dose": "400 mg once daily"
+        },
+        {
+            "Condition": "Moderate impairment (Child-Pugh class B)",
+            "Dose": "300 mg once daily"
+        },
+        {
+            "Condition": "Severe impairment (Child-Pugh class C)",
+            "Dose": "Use is not recommended"
+        }
+    ],
+    "Darunavir": [
+        {
+            "Condition": "Severe impairment (Child-Pugh class C)",
+            "Dose": "Use not recommended"
+        }
+    ],
+    "Dolutegravir": [
+        {
+            "Condition": "Severe impairment (Child-Pugh class C)",
+            "Dose": "Use is not recommended"
+        }
+    ],
+    "Doravirine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Efavirenz": [
+        {
+            "Condition": "Moderate-to-severe impairment (Child-Pugh class B or C)",
+            "Dose": "Use is not recommended"
+        }
+    ],
+    "Elvitegravir": [
+        {
+            "Condition": "Severe hepatic impairment (Child-Pugh class C)",
+            "Dose": "Use is not recommended"
+        }
+    ],
+    "Emtricitabine": [
+        {
+            "Form": "Capsule",
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        },
+        {
+            "Form": "Solution",
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Enfuvirtide": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Etravirine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Famciclovir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Fosamprenavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Ganciclovir": [
+        {
+            "Type": "IV Induction",
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Lamivudine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Lopinavir/ritonavir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Maraviroc": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Nelfinavir": [
+        {
+            "Condition": "Moderate to severe impairment (Child-Pugh class B or C)",
+            "Dose": "Use not recommended"
+        }
+    ],
+    "Nevirapine": [
+        {
+            "Condition": "Moderate to severe impairment (Child-Pugh class B or C)",
+            "Dose": "Use is contraindicated"
+        }
+    ],
+    "Nirmatrelvir/ritonavir": [
+        {
+            "Condition": "Severe impairment (Child-Pugh class C)",
+            "Dose": "Use is not recommended (has not been studied)"
+        }
+    ],
+    "Oseltamivir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Peramivir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Raltegravir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Remdesivir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Ribavirin": [
+        {
+            "Condition": "Hepatic decompensation (Child-Pugh class B and C)",
+            "Dose": "(600 mg/day) with titration as tolerated"
+        }
+    ],
+    "Rilpivirine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Ritonavir": [
+        {
+            "Condition": "Severe impairment (Child-Pugh class C)",
+            "Dose": "Not recommended"
+        }
+    ],
+    "Saquinavir": [
+        {
+            "Condition": "Severe impairment (Child-Pugh class C)",
+            "Dose": "Use is contraindicated"
+        }
+    ],
+    "Stavudine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Tenofovir alafenamide": [
+        {
+            "Condition": "Decompensated cirrhosis (Child-Pugh class B or C)",
+            "Dose": "Use is not recommended"
+        }
+    ],
+    "Tenofovir disoproxil fumarate": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Tipranavir": [
+        {
+            "Condition": "Child-Pugh class B or C (moderate-to-severe impairment)",
+            "Dose": "Use is contraindicated"
+        }
+    ],
+    "Valacyclovir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Valganciclovir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Zanamivir": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ],
+    "Zidovudine": [
+        {
+            "CrCl": null,
+            "Dose": "No adjustment necessary."
+        }
+    ]
+}
