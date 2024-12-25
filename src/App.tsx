@@ -18,12 +18,20 @@ function App() {
             <p className="text-lg text-gray-600 mb-8">
               A tool for healthcare professionals to calculate medication doses.
             </p>
-            <button
-              onClick={() => setActiveTab("adult")}
-              className="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 transition-colors"
-            >
-              Start Calculating
-            </button>
+            <div className="flex justify-center gap-4">
+              <button
+                onClick={() => setActiveTab("kidney")}
+                className="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 transition-colors"
+              >
+                Calculate Kidney Dose
+              </button>
+              <button
+                onClick={() => setActiveTab("liver")}
+                className="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 transition-colors"
+              >
+                Calculate Liver Dose
+              </button>
+            </div>
           </div>
         )}
 
